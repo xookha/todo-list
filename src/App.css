@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #050;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  margin-left: auto;
+  contain: layout;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn {
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.success {
+  color: mediumseagreen;
+}
+
+.light {
+  background-color: lightskyblue;
+}
+
+.warning {
+  color: indianred;
+}
+
+.box {
+  font-size: 1.2em;
+}
+
+.done {
+  color: buttonface;;
+  text-decoration: line-through;
+}
+
+input {
+  font-size: large;
+  border: none;
+  contain: layout;
+}
+
+.box > span:hover {
+  color: #050;
+}
+
+.box {
+
+}
